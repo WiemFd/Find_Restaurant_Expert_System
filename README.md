@@ -39,7 +39,7 @@ pip install -r requirements.txt
 ```
 ### 4. Run project
 
-#### Terminal
+#### 4.1 Terminal
 
 Use the following command line to run the program and enter yes/no according to whatever criteria you choose.
 ``` 
@@ -50,7 +50,7 @@ python main.py
 <img src="https://user-images.githubusercontent.com/128514665/227033681-de0f6a1f-d8bb-4779-961b-58d99eab81f4.JPG" width="400" height="300">
 </div>
 
-#### GUI
+#### 4.2 GUI
 ```
 cd .\app
 ```
@@ -60,7 +60,7 @@ flask run
 ````
 then open your web browser and enter this address: 
 ``` http://127.0.0.1:5000 ```
-###### Sample demonstration :
+##### Demonstration video :
 [![Alt text](https://user-images.githubusercontent.com/128514665/227043251-5382c40e-16d1-47a0-ae0c-7786f269087e.JPG)](https://mega.nz/file/6ZFm1DiZ#2a0ZSdea_04Ec1tnmpRyBXWNCnHPcQF6XUbF-AEKx_Q)
 
 
