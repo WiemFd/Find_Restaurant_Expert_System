@@ -44,6 +44,6 @@ Use the following command line to run the program and enter yes/no according to 
 python main.py 
 ```
 <div>
-<img src=""width= height=>
-<img src=""width= height=>
+<img src="https://github.com/WiemFd/Find_Restaurant_Expert_System/issues/2#issue-1636316447" width= height=500>
+<img src=""width= height=500>
 </div>
