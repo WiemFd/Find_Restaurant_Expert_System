@@ -61,6 +61,6 @@ flask run
 then open your web browser and enter this address: 
 ``` http://127.0.0.1:5000 ```
 ###### Sample demonstration :
-[![Alt text](https://img.youtube.com/vi/abc123/mqdefault.jpg)](https://www.youtube.com/watch?v=abc123)
+[![Alt text](https://user-images.githubusercontent.com/128514665/227043251-5382c40e-16d1-47a0-ae0c-7786f269087e.JPG)](https://mega.nz/file/6ZFm1DiZ#2a0ZSdea_04Ec1tnmpRyBXWNCnHPcQF6XUbF-AEKx_Q)
 
 
