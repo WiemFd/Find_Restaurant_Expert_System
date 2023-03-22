@@ -59,4 +59,8 @@ Use the following command line to run the application:
 flask run
 ````
 then open your web browser and enter this address: 
-```http://127.0.0.1:5000```
+``` http://127.0.0.1:5000 ```
+###### Sample demonstration :
+[![Alt text](https://img.youtube.com/vi/abc123/mqdefault.jpg)](https://www.youtube.com/watch?v=abc123)
+
+
