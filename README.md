@@ -37,13 +37,26 @@ Run the following command to install the dependencies:
 ```
 pip install -r requirements.txt
 ```
-### 4. Run the project on the terminal 
+### 4. Run project
+
+#### Terminal
 
 Use the following command line to run the program and enter yes/no according to whatever criteria you choose.
 ``` 
 python main.py 
 ```
 <div>
-<img src="https://user-images.githubusercontent.com/128514665/227032988-948876e4-7cfd-40a4-8b8b-cdef1e4ba0dc.png" width="300" height="500">
-<img src=""width="300" height="500">
+<img src="https://user-images.githubusercontent.com/128514665/227032988-948876e4-7cfd-40a4-8b8b-cdef1e4ba0dc.png" width="400" height="300">
+<img src="https://user-images.githubusercontent.com/128514665/227033681-de0f6a1f-d8bb-4779-961b-58d99eab81f4.JPG" width="400" height="300">
 </div>
+
+#### GUI
+```
+cd .\app
+```
+Use the following command line to run the application:
+``` 
+flask run
+````
+then open your web browser and enter this address: 
+```http://127.0.0.1:5000```
