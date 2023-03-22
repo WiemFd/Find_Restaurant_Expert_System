@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find restaurant</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style2.css') }}">
+</head>
+
+<body>
+
+    <form method="POST" action="/">
+
+        <div class="hero-image">
+            <div class="hero-text">
+                <section>
+                    <h1>Restaurant Recommendation</h1>
+                    <div class="check-form">
+
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div>
+                                            <input type="checkbox" name="customSwitch1" value="yes">
+                                            <label for="customSwitch1">Expensive</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            <input type="checkbox" name="customSwitch2" value="yes">
+                                            <label for="customSwitch2">Chic</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            <input type="checkbox" name="customSwitch3" value="yes">
+                                            <label for="customSwitch3">Traditional</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            <input type="checkbox" name="customSwitch4" value="yes">
+                                            <label for="customSwitch4">Full Service</label>
+                                        </div>
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div>
+                                            <input type="checkbox" name="customSwitch5" value="yes">
+                                            <label for="customSwitch5">Quick Service</label>
+                                        </div>
+
+                                    </td>
+                                    <td>
+                                        <div>
+                                            <input type="checkbox" name="customSwitch6" value="yes">
+                                            <label for="customSwitch6">Savoury Dishes</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            <input type="checkbox" name="customSwitch7" value="yes">
+                                            <label for="customSwitch7">Sweet Dishes</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            <input type="checkbox" name="customSwitch8" value="yes">
+                                            <label for="customSwitch8">Tunisian Cuisine</label>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div>
+                                            <input type="checkbox" name="customSwitch9" value="yes">
+                                            <label for="customSwitch9">Italian Cuisine</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            <input type="checkbox" name="customSwitch10" value="yes">
+                                            <label for="customSwitch10">Korean Cuisine</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            <input type="checkbox" name="customSwitch11" value="yes">
+                                            <label for="customSwitch11">Mexican Cuisine</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            <input type="checkbox" name="customSwitch12" value="yes">
+                                            <label for="customSwitch12">Turkish Cuisine</label>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div>
+                                            <input type="checkbox" name="customSwitch13" value="yes">
+                                            <label for="customSwitch13">Home Delivrey</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            <input type="checkbox" name="customSwitch14" value="yes">
+                                            <label for="customSwitch14">Access Wifi</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            <input type="checkbox" name="customSwitch15" value="yes">
+                                            <label for="customSwitch15">Outside Seating</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            <input type="checkbox" name="customSwitch16" value="yes">
+                                            <label for="customSwitch16">Sea View</label>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                    <button class="play-btn">
+                    Submit
+                     </button>
+                    <button class="play-btn" type="reset">
+                    Reset
+                  </button>
+                </section>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
